@@ -52,10 +52,14 @@ public class Duck : MonoBehaviour
 
     private void RotateTowardsTargetDirection(Vector3 _targetPos)
     {
+
         //TODO: Bug? Duck rotates towards player pos, but doesnt rotate towards randomIdlePoint pos 
         Vector3 targetDirection = _targetPos - transform.position;
         float singleStep = rotationDuckSpeed * Time.deltaTime;
         Vector3 newDirection = Vector3.RotateTowards(transform.forward, targetDirection, singleStep, 0.0f);
+        
+        
+        
         Debug.DrawRay(transform.position, newDirection, Color.red);
         transform.rotation = Quaternion.LookRotation(newDirection);
     }
