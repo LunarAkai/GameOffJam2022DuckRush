@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 86bdba02eac37b54e95e91351b9cbd6f
+guid: d50cd5dd466e3134980d2ffaf9e68bf4
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - duckScriptableObject: {instanceID: 0}
-  - player: {instanceID: 0}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
